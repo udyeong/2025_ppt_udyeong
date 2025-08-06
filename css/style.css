@@ -406,6 +406,11 @@ figure>div>img{
     gap: 20px;
     padding-top: 50px;
 }
+.going>li:hover>a{
+    background-color: var(--purple_tran);
+    color: var(--white);
+    transition: 0.3s ease;
+}
 .going>li>a{
     padding: 10px 20px;
     background-color: var(--white);
@@ -601,4 +606,5 @@ footer p{
     #project_menu>li:nth-child(2n) {
         border-right: transparent;
     }
+
 }
