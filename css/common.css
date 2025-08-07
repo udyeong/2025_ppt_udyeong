@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    vertical-align: middle;
+    word-break: keep-all;
+    cursor: url('../img/cursor/cusor2.png'), auto;
+}
+a{
+    text-decoration: none;
+    color: var(--gray);
+    line-height: 1.5;
+    font-weight: 500;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
